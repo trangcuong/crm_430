@@ -1,5 +1,4 @@
-# CRM1.0 Transformation 2026 — Bảng thi đua Chi nhánh Bắc Nghệ An
-
+# CRM1.0 Transformation 2026 — Bảng thi đua Chi nhánh Hà Tĩnh
 Website nội bộ công khai bảng điểm thi đua CRM1.0 theo Công văn 7087/TGĐ-NHCT-KHDN5,
 kèm trang quản trị để Trưởng phòng Kế hoạch Tổng hợp tải số liệu Excel hằng tháng.
 
@@ -12,13 +11,13 @@ kèm trang quản trị để Trưởng phòng Kế hoạch Tổng hợp tải s
 
 ## Triển khai lên GitHub + Vercel
 
-Dưới đây là hướng dẫn triển khai dự án **`crm_444`** được định dạng lại đẹp mắt bằng Markdown, tối ưu cho việc đọc và theo dõi từng bước.
+Dưới đây là hướng dẫn triển khai dự án **`crm_430`** được định dạng lại đẹp mắt bằng Markdown, tối ưu cho việc đọc và theo dõi từng bước.
 
 ---
 
-# 🚀 Hướng Dẫn Triển Khai Dự Án CRM 444 (Next.js + Neon + Vercel)
+# 🚀 Hướng Dẫn Triển Khai Dự Án CRM 430 (Next.js + Neon + Vercel)
 
-Tài liệu này hướng dẫn từng bước đưa dự án **`crm_444`** từ thư mục mã nguồn lên hoạt động thực tế trên Internet.
+Tài liệu này hướng dẫn từng bước đưa dự án **`crm_430`** từ thư mục mã nguồn lên hoạt động thực tế trên Internet.
 
 ---
 
@@ -41,13 +40,13 @@ Dự án này sử dụng cơ sở dữ liệu PostgreSQL với cấu trúc đư
 1. **Tạo Project mới trên Neon:**
 * Truy cập [neon.tech](https://neon.tech/) và đăng nhập.
 * Nhấn **Create Project**.
-* **Project Name:** `crm-444-db` (hoặc tên tùy chọn).
+* **Project Name:** `crm-430-db` (hoặc tên tùy chọn).
 * **Region:** Chọn `Singapore` (để tối ưu tốc độ tại Việt Nam).
 
 
 2. **Khởi tạo các bảng dữ liệu (Tables):**
 * Trong giao diện điều khiển của Neon, chọn mục **SQL Editor** ở menu bên trái.
-* Mở file `schema.sql` nằm trong thư mục `crm_444-main/db/` trên máy tính, **sao chép toàn bộ nội dung SQL**.
+* Mở file `schema.sql` nằm trong thư mục `crm_430-main/db/` trên máy tính, **sao chép toàn bộ nội dung SQL**.
 
 
 * Dán vào khung **SQL Editor** trên Neon và nhấn **Run** để khởi tạo cấu trúc cơ sở dữ liệu.
@@ -80,7 +79,7 @@ postgresql://username:password@ep-xxxx.ap-southeast-1.aws.neon.tech/neondb?sslmo
 2. **Tạo Repository mới trên GitHub:**
 * Đăng nhập vào [github.com](https://github.com/).
 * Nhấn dấu **`+`** (góc trên bên phải) $\rightarrow$ Chọn **New repository**.
-* **Repository name:** `crm_444`
+* **Repository name:** `crm_430`
 * **Option:** Chọn *Public* hoặc *Private* tùy nhu cầu.
 * Nhấn **Create repository** *(không tích chọn khởi tạo README hay .gitignore vì code đã có sẵn)*.
 
@@ -89,7 +88,7 @@ postgresql://username:password@ep-xxxx.ap-southeast-1.aws.neon.tech/neondb?sslmo
 
 3. **Đẩy code lên bằng GitHub Desktop (hoặc tự upload):**
 * Mở ứng dụng **GitHub Desktop**.
-* Chọn **File** $\rightarrow$ **Add Local Repository...** $\rightarrow$ Chọn thư mục `crm_444-main`.
+* Chọn **File** $\rightarrow$ **Add Local Repository...** $\rightarrow$ Chọn thư mục `crm_430-main`.
 
 
 * Nếu phần mềm yêu cầu khởi tạo Git, nhấn **Create a repository**.
@@ -130,7 +129,7 @@ Dự án được xây dựng bằng **Next.js**, Vercel sẽ tự động tối
 
 
 * Khi hoàn tất, Vercel sẽ cấp cho bạn đường link truy cập dạng:
-`[https://crm-444-xxx.vercel.app](https://crm-444-xxx.vercel.app)`
+`[https://crm-430-xxx.vercel.app](https://crm-430-xxx.vercel.app)`
 
 
 
