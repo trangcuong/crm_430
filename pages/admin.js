@@ -475,7 +475,7 @@ export default function Admin() {
         )}
       </div>
 
-      <footer>Nội bộ VietinBank Chi nhánh Bắc Nghệ An · Dữ liệu phục vụ chương trình thi đua CRM1.0 Transformation 2026</footer>
+      <footer>Nội bộ VietinBank Chi nhánh Hà Tĩnh · Dữ liệu phục vụ chương trình thi đua CRM1.0 Transformation 2026</footer>
     </>
   );
 }
