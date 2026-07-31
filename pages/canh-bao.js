@@ -229,7 +229,7 @@ export default function CanhBao() {
         )}
       </div>
 
-      <footer>VietinBank Chi nhánh Bắc Nghệ An · Dữ liệu phục vụ chương trình thi đua CRM1.0 Transformation 2026</footer>
+      <footer>VietinBank Chi nhánh Hà Tĩnh · Dữ liệu phục vụ chương trình thi đua CRM1.0 Transformation 2026</footer>
     </>
   );
 }
